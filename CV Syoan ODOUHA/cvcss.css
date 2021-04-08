@@ -1,0 +1,509 @@
+html
+{
+  width:100%;
+  height:100%;
+}
+
+header
+{
+  display: flex;
+  height: 20%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5em;
+  border-radius: 10px;
+  background-color: #ebebeb;
+  
+}
+header > div:nth-child(2) > h1
+{
+  font-size: 2em;
+}   
+
+header > div:nth-child(2) > p
+{
+  line-height: 5%;
+} 
+
+header > div
+{
+  width: 60%;
+}
+header > div:nth-last-child(2)
+{
+  width: 20%;
+}
+header > div > img 
+{
+  margin-top: 0.5em;
+  margin-left: 8%;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+
+article{
+	background-color: #ebebeb;
+	margin-top: 1em;
+	border-radius: 0.4em; 
+}
+
+.doc{
+	margin: 0em 15%;
+}
+
+
+li{
+	list-style: none;  
+}
+
+
+#progress{
+	flex: 70;
+}
+
+#nom{
+	flex: 30;
+}
+
+main{
+	display: flex;
+}
+
+#gauche{
+	flex: 1;
+	margin-right:0.5em; 
+}
+
+#droite{
+	flex: 1;
+	margin-left: 0.5em;
+}
+
+#corps{
+	display:flex;
+	width: 100%;
+	margin: 0em 1em;
+}
+
+#date{
+	flex: 30;
+}
+
+#lieu{
+	flex: 70;
+}
+
+#corps{
+	display:flex;
+	width: 100%;
+	margin: 0em 1em;
+}
+
+#annee{
+	flex:30; 
+}
+
+#endr{
+	flex:70;
+}
+
+h2{
+	color: #2E63E8; 
+	margin: 2%;
+}
+
+h3{
+	color: #E30BAB;
+}
+
+footer
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin:auto;
+  margin-top: 1em;
+  background-color: #ebebeb;
+  border-radius: 0.4em;
+}
+
+#pdf i{
+	font-size: 40px;
+	padding-left: 45%;
+}
+
+#reseau{
+	font-size: 40px;
+	padding-left: 30%;
+}
+
+#hobbie{
+	font-size: 40px;
+	padding-left: 30%;
+}
+
+img{
+	width: 50%;
+}
+
+h3{
+	border-style: none none dashed dashed;
+	width: 50%;
+	margin-left: 15px;
+	color: 
+}
+
+video, audio{
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1024px)
+{
+  /* regle CSS sur ecran d'ordinateur et télévision */
+
+}
+
+@media screen and (max-width: 1024px)
+{
+  /* regle CSS sur tablette */
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px)
+{
+	  html
+	{
+	  width:100%;
+	  height:100%;
+	}
+
+	header{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 20%;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1em;
+		border-radius: 10px;
+		background-color: #ebebeb;
+	}
+	header > div:nth-child(2) > h1
+	{
+	  font-size: 1em;
+	}   
+
+	header > div:nth-child(2) > p
+	{
+	  line-height: 100%;
+	} 
+
+	header > div
+	{
+	  width: 60%;
+	}
+	header > div:nth-last-child(2)
+	{
+	  width: 40%;
+	}
+	header > div > img 
+	{
+	  margin-top: 0.5em;
+	  margin-left: 8%;
+	  border-radius: 50%;
+	  height: 80px;
+	  width: 80px;
+	}
+
+
+	article{
+		background-color: #ebebeb;
+		margin-top: 1em;
+		border-radius: 0.4em; 
+	}
+
+	.doc{
+		margin: 0em 15%;
+	}
+
+
+	#progress{
+		flex: 70;
+	}
+
+	#nom{
+		flex: 30;
+	}
+
+	
+
+	#gauche{
+		flex: 1;
+		margin-right:0.5em; 
+	}
+
+	#droite{
+		flex: 1;
+		margin-left: 0.5em;
+	}
+
+	#corps{
+		display:flex;
+		flex-direction: column;
+		width: 10%;
+		margin: 0.5em 0.5em;
+	}
+
+	#date{
+		flex: 30;
+	}
+
+	#lieu{
+		flex: 70;
+	}
+
+	#corps{
+		display:flex;
+		width: 100%;
+		margin: 0em 1em;
+	}
+
+	#annee{
+		flex:30; 
+	}
+
+	#endr{
+		flex:70;
+	}
+
+	main{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+
+	#pdf i{
+		font-size: 40px;
+		padding-left: 45%;
+	}
+
+	#reseau{
+		font-size: 40px;
+		padding-left: 30%;
+	}
+
+	#hobbie{
+		font-size: 40px;
+		padding-left: 30%;
+	}
+
+	img{
+		width: 50%;
+	}
+
+	h3{
+		border-style: none none dashed dashed;
+		width: 50%;
+		margin-left: 15px;
+		color: 
+	}
+
+
+	video, audio{
+		width: 80%;
+		margin: auto;
+		display: block;
+	}
+
+}
+
+@media print{
+		html
+	{
+	  width:100%;
+	  height:100%;
+	}
+
+	header
+	{
+	  display: flex;
+	  height: 20%;
+	  justify-content: space-around;
+	  align-items: center;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-top: 0.5em;
+	  border-radius: 10px;
+	  background-color: #ebebeb;
+	  
+	}
+	header > div:nth-child(2) > h1
+	{
+	  font-size: 2em;
+	}   
+
+	header > div:nth-child(2) > p
+	{
+	  line-height: 5%;
+	} 
+
+	header > div
+	{
+	  width: 60%;
+	}
+	header > div:nth-last-child(2)
+	{
+	  width: 20%;
+	}
+	header > div > img 
+	{
+	  display: none;
+	}
+
+
+	article{
+		background-color: #ebebeb;
+		margin-top: 1em;
+		border-radius: 0.4em; 
+	}
+
+	.doc{
+		margin: 0em 15%;
+	}
+
+
+
+	li{
+		list-style: none;  
+	}
+
+
+	#progress{
+		flex: 70;
+	}
+
+	#nom{
+		flex: 30;
+	}
+
+	main{
+		display: flex;
+	}
+
+	#gauche{
+		flex: 1;
+		margin-right:0.5em; 
+	}
+
+	#droite{
+		flex: 1;
+		margin-left: 0.5em;
+	}
+
+	#corps{
+		display:flex;
+		width: 100%;
+		margin: 0em 1em;
+	}
+
+	#date{
+		flex: 30;
+	}
+
+	#lieu{
+		flex: 70;
+	}
+
+	#corps{
+		display:flex;
+		width: 100%;
+		margin: 0em 1em;
+	}
+
+	#annee{
+		flex:30; 
+	}
+
+	#endr{
+		flex:70;
+	}
+
+	h2{
+		color: #2E63E8; 
+		margin: 2%;
+	}
+
+	h3{
+		color: #E30BAB;
+	}
+
+	footer
+	{
+	  display: flex;
+	  flex-direction: column;
+	  width: 100%;
+	  align-items: center;
+	  justify-content: center;
+	  margin:auto;
+	  margin-top: 1em;
+	  background-color: #ebebeb;
+	  border-radius: 0.4em;
+	}
+
+	#pdf i{
+		font-size: 40px;
+		padding-left: 45%;
+	}
+
+	#reseau{
+		font-size: 40px;
+		padding-left: 30%;
+	}
+
+	#hobbie{
+		font-size: 40px;
+		padding-left: 30%;
+	}
+
+	img{
+		width: 50%;
+	}
+
+	h3{
+		border-style: none none dashed dashed;
+		width: 50%;
+		margin-left: 15px;
+		color: 
+	}
+
+	.noimp{
+		display:none;
+	}
+
+	video, audio{
+		width: 80%;
+		margin: auto;
+		display: block;
+	}	
+}
